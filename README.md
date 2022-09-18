@@ -1,3 +1,3 @@
 # Weather-app\
-![website images](Weather%20app%20website.png)(Weather app website2.png)(Weather app website3.png)(Weather app website4.png)
+![website images](Weather%20app%20website%20.png)(Weather%20app%20website%202.png)(Weather%20app%20website%203.png)(Weather%20app%20website%204.png)
 ### It tells you the temperature according to the location.
