@@ -7,6 +7,7 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 app.post("/", function (req, res) {
+  // variable for getting the city  name from the search box
   var cityn = req.body.cityName;
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
