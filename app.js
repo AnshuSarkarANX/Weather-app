@@ -28,6 +28,7 @@ app.post("/", function (req, res) {
           temp +
           " degree Celsius.</h1>"
       );
+      //Code for showing the temperature in the webpage
       res.write("<h8>And it is " + des + ".</h8>");
       res.write("<img src= " + iconimg + ">");
       res.send();
