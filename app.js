@@ -3,6 +3,7 @@ const body = require("body-parser");
 const app = expr();
 const http = require("https");
 app.use(body.urlencoded({ extended: true }));
+//For homepage
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
