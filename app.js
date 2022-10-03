@@ -7,6 +7,7 @@ app.use(body.urlencoded({ extended: true }));
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
+//For posting on homepage 
 app.post("/", function (req, res) {
   // variable for getting the city  name from the search box
   var cityn = req.body.cityName;
