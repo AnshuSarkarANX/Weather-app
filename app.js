@@ -11,7 +11,7 @@ app.get("/", function (req, res) {
 app.post("/", function (req, res) {
   // variable for getting the city  name from the search box
   var cityn = req.body.cityName;
-  // api url
+  //Weather api url
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
     cityn +
