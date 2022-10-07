@@ -22,6 +22,7 @@ app.post("/", function (req, res) {
       var temp = weatherData.main.temp;
       var des = weatherData.weather[0].description;
       var icon = weatherData.weather[0].icon;
+      // weather icon from open weather api
       var iconimg = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
       res.write(
         "<h1>The tempeature in " +
