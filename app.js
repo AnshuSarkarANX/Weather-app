@@ -16,6 +16,7 @@ app.post("/", function (req, res) {
     "https://api.openweathermap.org/data/2.5/weather?q=" +
     cityn +
     "&units=metric&appid=a10baaad2f7b9d726cf70d70c5cc243f";
+// For parsing the data from whether api
   http.get(url, function (response) {
     response.on("data", function (data) {
       const weatherData = JSON.parse(data);
